@@ -23,5 +23,5 @@ steps:
 - name: Lint with flake8
   run: |
     pip install flake8
-    flake8 brain_games
+    flake8 .
   continue-on-error: true
