@@ -17,7 +17,7 @@ def output_random_number():
 
 
 def is_number_even(random_number):
-    """"Return check the number for the presence of parity """    
+    """"Return check the number for the presence of parity """
     return 0 == random_number % 2
 
 
