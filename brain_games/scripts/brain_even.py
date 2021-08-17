@@ -15,11 +15,12 @@ def main():
     game_conditions()
     number_of_correct_answers = 0
     flag = True
+    NUMBER_OF_ANSWERS_TO_WIN = 3
     while flag is True:
         random_number = output_random_number()
         even_number = is_number_even(random_number)
         number_of_correct_answers = checking_response(even_number, name, number_of_correct_answers)  # noqa: E501
-        if number_of_correct_answers == 3:
+        if number_of_correct_answers == NUMBER_OF_ANSWERS_TO_WIN:
             print('Congratulations, {}!'.format(name))
             flag = False
         elif number_of_correct_answers == 0:
