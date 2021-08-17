@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""An example script."""
+"""Module brain-even."""
 
 from brain_games.scripts.cli import welcom_user
 from brain_games.scripts.functions_for_brain_even import game_conditions

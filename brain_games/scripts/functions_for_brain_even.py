@@ -1,4 +1,4 @@
-"""An example script."""
+"""A set of functions for brain-even."""
 
 from random import randint
 import prompt
@@ -10,16 +10,19 @@ def game_conditions():
 
 
 def output_random_number():
+    """Return rundom number from 1 to 100"""
     random_number = randint(1, 100)
     print('Question: {}'.format(random_number))
     return random_number
 
 
 def is_number_even(random_number):
+    """"Return check the number for the presence of parity """    
     return 0 == random_number % 2
 
 
 def checking_response(even_number, name, number_of_correct_answers):
+    """"Return the result of checking the response"""
     response = prompt.string('Your answer: ')
     if even_number is True:
         if response == "yes":
