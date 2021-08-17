@@ -7,7 +7,6 @@ from brain_games.scripts.cli import welcom_user
 
 def main():
     """Run an example code."""
-    print('Welcome to the Brain Games!')  # noqa: WPS421
     welcom_user()
 
 
