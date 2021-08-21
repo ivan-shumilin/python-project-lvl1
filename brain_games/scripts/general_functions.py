@@ -4,7 +4,7 @@ import prompt
 
 
 def game_conditions(NAME_GAMES):
-    """Accepts the game condition. Returns the game condition."""
+    """Accepts the name of the game. Returns the game condition."""
     if NAME_GAMES == 'enev':
         print('Answer "yes" if the number is even, otherwise answer "no".')
     elif NAME_GAMES == 'calc':

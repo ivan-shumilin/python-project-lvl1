@@ -14,6 +14,7 @@ def generating_an_example():
 
 
 def consider_correct_answer(num1, num2, operation):
+    """Returns the result of evaluating the expression."""
     if operation == '+':
         return num1 + num2
     elif operation == '-':

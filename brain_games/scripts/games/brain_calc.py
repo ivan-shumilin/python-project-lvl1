@@ -12,7 +12,7 @@ NAME_GAMES = 'calc'
 
 
 def main():
-    """Run an example code."""
+    """Run brain-calc."""
     name = welcom_user()
     game_conditions(NAME_GAMES)
     number_of_correct_answers = 0
