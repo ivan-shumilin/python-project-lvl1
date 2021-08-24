@@ -12,7 +12,7 @@ NAME_GAMES = 'gcd'
 
 
 def main():
-    """Run brain-calc."""
+    """Run brain-gcd."""
     name = welcom_user()
     print(name)
     game_conditions(NAME_GAMES)

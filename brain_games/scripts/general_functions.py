@@ -1,6 +1,7 @@
 """A set of general functions."""
 
 import prompt
+from random import randint
 
 
 def game_conditions(NAME_GAMES):
@@ -13,6 +14,8 @@ def game_conditions(NAME_GAMES):
         print('Find the greatest common divisor of given numbers.')
     elif NAME_GAMES == 'progression':
         print('What number is missing in the progression?')
+    elif NAME_GAMES == 'prime':
+        print('Answer "yes" if given number is prime. Otherwise answer "no".')    
 
 
 def receiving_response():
@@ -32,3 +35,10 @@ def checking_response(result, response, number_of_correct_answers, name):
             \n Let's try again, {}!".format(response, result, name))
         number_of_correct_answers = 0
         return number_of_correct_answers
+
+
+def output_random_number():
+    """Return rundom number from 1 to 100"""
+    random_number = randint(1, 100)
+    print('Question: {}'.format(random_number))
+    return random_number        

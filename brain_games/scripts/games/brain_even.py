@@ -4,10 +4,9 @@
 
 from brain_games.scripts.cli import welcom_user
 from brain_games.scripts.general_functions import game_conditions,\
-     receiving_response
+     receiving_response, output_random_number
 from brain_games.scripts.functions_for_brain_even import\
-     output_random_number, checking_response
-from brain_games.scripts.functions_for_brain_even import is_number_even
+     checking_response, is_number_even
 
 NAME_GAMES = 'enev'
 
