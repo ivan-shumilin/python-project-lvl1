@@ -4,9 +4,9 @@
 
 from brain_games.scripts.cli import welcom_user
 from brain_games.scripts.general_functions import game_conditions,\
-     receiving_response
+     receiving_response, checking_response
 from brain_games.scripts.functions_for_brain_calc import\
-     generating_an_example, consider_correct_answer, checking_response
+     generating_an_example, consider_correct_answer
 
 NAME_GAMES = 'calc'
 
