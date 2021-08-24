@@ -11,6 +11,8 @@ def game_conditions(NAME_GAMES):
         print('What is the result of the expression?')
     elif NAME_GAMES == 'gcd':
         print('Find the greatest common divisor of given numbers.')
+    elif NAME_GAMES == 'progression':
+        print('What number is missing in the progression?') 
 
 
 def receiving_response():

@@ -3,12 +3,14 @@
 """Module brain-gcd."""
 
 from brain_games.scripts.cli import welcom_user
-from brain_games.scripts.general_functions import game_conditions,\
-      receiving_response, checking_response
-from brain_games.scripts.functions_for_brain_gcd import output_random_number
-import fractions
+from brain_games.scripts.general_functions import game_conditions, \
+        receiving_response, checking_response
+from brain_games.scripts.functions_for_brain_progression import creating_random_progression, \
+        selecting_list_item
 
-NAME_GAMES = 'gcd'
+
+
+NAME_GAMES = 'progression'
 
 
 def main():
@@ -20,13 +22,13 @@ def main():
     flag = True
     NUMBER_OF_ANSWERS_TO_WIN = 3
     while flag is True:
-        num1, num2 = output_random_number()
+        progression = creating_random_progression()
+        hidden_item = selecting_list_item(progression)
         response = int(receiving_response())
-        result = fractions.gcd(num1, num2)
         number_of_correct_answers = \
-            checking_response(result, response,
-                              number_of_correct_answers,
-                              name)
+        checking_response(hidden_item, response,
+                          number_of_correct_answers,
+                          name)
         if number_of_correct_answers == NUMBER_OF_ANSWERS_TO_WIN:
             print('Congratulations, {}!'.format(name))
             flag = False
@@ -36,3 +38,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
