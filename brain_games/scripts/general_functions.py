@@ -15,7 +15,7 @@ def game_conditions(NAME_GAMES):
     elif NAME_GAMES == 'progression':
         print('What number is missing in the progression?')
     elif NAME_GAMES == 'prime':
-        print('Answer "yes" if given number is prime. Otherwise answer "no".')    
+        print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
 
 def receiving_response():
@@ -41,4 +41,4 @@ def output_random_number():
     """Return rundom number from 1 to 100"""
     random_number = randint(1, 100)
     print('Question: {}'.format(random_number))
-    return random_number        
+    return random_number
