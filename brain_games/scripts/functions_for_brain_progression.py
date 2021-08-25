@@ -18,5 +18,5 @@ def selecting_list_item(progression):
     num_hidden_item = randint(1, (len(progression) - 1))
     hidden_item = progression[num_hidden_item]
     progression[num_hidden_item] = '..'
-    print('Question: ', *progression)
+    print('Question:', *progression)
     return hidden_item
