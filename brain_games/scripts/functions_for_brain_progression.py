@@ -5,7 +5,7 @@ from random import randint
 
 def creating_random_progression():
     """"Returns random progression"""
-    length_pr = randint(6, 10)
+    length_pr = randint(8, 10)
     step_pr = randint(1, 10)
     first_pr = randint(0, 30)
     finish_pr = first_pr + length_pr * step_pr
