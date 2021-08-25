@@ -5,8 +5,9 @@
 from brain_games.scripts.cli import welcom_user
 from brain_games.scripts.general_functions import game_conditions,\
       receiving_response, checking_response
-from brain_games.scripts.functions_for_brain_gcd import output_random_number
-import fractions
+from brain_games.scripts.functions_for_brain_gcd import \
+    output_random_number, gcd_rem_division
+# import fractions
 
 NAME_GAMES = 'gcd'
 
@@ -22,7 +23,7 @@ def main():
     while flag is True:
         num1, num2 = output_random_number()
         response = int(receiving_response())
-        result = fractions.gcd(num1, num2)
+        result = gcd_rem_division(num1, num2)
         number_of_correct_answers = \
             checking_response(result, response,
                               number_of_correct_answers,
