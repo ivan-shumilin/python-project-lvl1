@@ -4,9 +4,9 @@
 
 from brain_games.scripts.cli import welcom_user
 from brain_games.scripts.general_functions import game_conditions,\
-      receiving_response, checking_response, output_random_number
+    receiving_response, checking_response, output_random_number
 from brain_games.scripts.functions_for_brain_prime import \
-     is_number_prime
+    is_number_prime
 
 NAME_GAMES = 'prime'
 

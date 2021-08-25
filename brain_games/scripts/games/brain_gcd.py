@@ -4,7 +4,7 @@
 
 from brain_games.scripts.cli import welcom_user
 from brain_games.scripts.general_functions import game_conditions,\
-      receiving_response, checking_response
+    receiving_response, checking_response
 from brain_games.scripts.functions_for_brain_gcd import \
     output_random_number, gcd_rem_division
 # import fractions
