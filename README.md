@@ -1,4 +1,4 @@
-### Hexlet tests and linter status:
+### Hexlet tests  and linter status:
 [![Actions Status](https://github.com/ivan-shumilin/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/ivan-shumilin/python-project-lvl1/actions)
 <a href="https://codeclimate.com/github/ivan-shumilin/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/24a418c12bfe22415e5e/maintainability" /></a>
 <a href="https://codeclimate.com/github/ivan-shumilin/python-project-lvl1/test_coverage"><img src="https://api.codeclimate.com/v1/badges/24a418c12bfe22415e5e/test_coverage" /></a>
